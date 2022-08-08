@@ -1,0 +1,66 @@
+ *,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+.context {
+   background-color: rgb(229, 177, 218);
+   font-size: 20px;
+}
+p {
+   font-size: 20px;
+}
+h1 {
+   font-size: 30px;
+   color: maroon;
+}
+h2 {
+   font-size: 24px;
+}
+.about-me,
+.searching-for-job {
+   background-color: cornflowerblue;
+}
+.choice {
+   background-color: rgb(148, 175, 224);
+}
+
+.choice ~ div {
+   color: rgb(50, 30, 94);
+}
+.choice + div {
+   background-color: rgb(191, 203, 224);
+}
+.ottofeller {
+   background-color: rgb(165, 187, 225);
+}
+.motivation {
+   background-color: rgb(130, 202, 206);
+}
+.recommendation {
+   background-color: rgb(200, 155, 192);
+}
